@@ -1,0 +1,6 @@
+import os.path
+
+pex_binary(
+  name = os.path.join("hello"),
+  sources = ["hello.py"],
+)
